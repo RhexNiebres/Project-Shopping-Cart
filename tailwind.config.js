@@ -7,12 +7,6 @@ export default {
     ],
 
   theme: {
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'white': '#ffffff',
-      'purple': '#3f3cbb',
-    },
     extend: {},
   },
   plugins: [],
