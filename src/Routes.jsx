@@ -4,6 +4,7 @@ import Shop from './Pages/ShopPage.jsx';
 import About from './Pages/AboutPage.jsx';
 import Cart from './Pages/CartPage.jsx';
 import ItemCards from './Components/ItemCards.jsx'
+import CheckOutPage from "./Pages/CheckOutPage";
 const routes = [
     {path:'/' ,
         element:<App/>,
@@ -14,20 +15,24 @@ const routes = [
             <About/>
             </>},
             {
-                path:'about',
+                path:'About',
                 element:<About/>,
             },
             {
-                path:'shop',
+                path:'Shop',
                 element:<Shop/>,
             },
             {
-                path:'cart',
+                path:'Cart',
                 element:<Cart/>,
             },
             {
-                path:'cards',
+                path:'Cards',
                 element:<ItemCards/>,
+            },
+            {
+                path:'Checkoutpage',
+                element:<CheckOutPage/>,
             },
         ]
     },
