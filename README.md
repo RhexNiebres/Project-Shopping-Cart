@@ -1,8 +1,15 @@
-# React + Vite
+# Shopping Cart Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+A simple shopping cart application built with React and Tailwind CSS. Users can add, remove, and update items in the cart, with total price calculation.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Add products to the cart
+- Remove items from the cart
+- Update item quantities
+- View total price
+- Local storage support to persist cart data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- React
+- Tailwind CSSm   
