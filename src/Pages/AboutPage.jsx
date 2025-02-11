@@ -11,7 +11,7 @@ function About() {
       <div className="relative z-10 text-center">
         <h1 className="text-3xl font-bold text-white">About</h1>
         <div className="flex gap-5">
-          <p className="flex-1 rounded-md bg-black bg-opacity-50 p-4">
+          <p className="flex-1 rounded-md bg-black bg-opacity-50 p-4 text-left">
             Welcome to ShopCart, your one-stop destination for a seamless and
             hassle-free shopping experience! At ShopCart, we believe that
             shopping should be simple, fast, and enjoyable. Whether you&apos;re
@@ -22,14 +22,14 @@ function About() {
             <br /> <br />
             <strong>Why Choose ShopCart?</strong>
             <br />
-            ✅ Wide Selection – Discover thousands of products from trusted
+            ✅ Wide Selection <br />Discover thousands of products from trusted
             brands.
             <br />
-            ✅ Fast & Secure Checkout – Your transactions are protected with the
+            ✅ Fast & Secure Checkout <br /> Your transactions are protected with the
             latest security measures.
             <br />
-            ✅ Easy Navigation – Shop effortlessly with our intuitive design.
-            <br />✅ Exclusive Deals – Enjoy discounts, promotions, and special
+            ✅ Easy Navigation <br /> Shop effortlessly with our intuitive design.
+            <br />✅ Exclusive Deals <br /> Enjoy discounts, promotions, and special
             offers.
           </p>
 
