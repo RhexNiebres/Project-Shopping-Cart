@@ -9,7 +9,7 @@ function About() {
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       <div className="relative z-10 text-center">
-        <h1 className="text-3xl font-bold text-white">About</h1>
+        <h1 className="text-5xl font-bold text-white pb-20">About</h1>
         <div className="flex gap-5">
           <p className="flex-1 rounded-md bg-black bg-opacity-50 p-4 text-left">
             Welcome to ShopCart, your one-stop destination for a seamless and
