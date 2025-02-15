@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Header() {
   const navigationClass = `rounded-md bg-orange-300 p-2 hover:bg-orange-600 hover:scale-110  active:bg-orange-600 focus:outline-none focus:ring focus:ring-orange-300 `;
   return (
-    <header className="flex items-center bg-orange-500 py-2">
+    <header className=" sticky top-0 z-10 flex items-center bg-orange-500 py-2">
       <nav className="flex flex-1 flex-row justify-between px-5">
         <div className="flex gap-x-2">
           <Link to="/" className={navigationClass}>
