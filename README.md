@@ -12,4 +12,5 @@ A simple shopping cart application built with React and Tailwind CSS. Users can 
 
 ## 🛠️ Technologies Used
 - React
-- Tailwind CSS 
+- Tailwind CSS
+- express
