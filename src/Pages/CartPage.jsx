@@ -98,7 +98,7 @@ const Cart = () => {
             </div>
           ))
         ) : (
-          <div className="flex h-screen items-center justify-center text-gray-500">
+          <div className="flex h-screen w-screen items-center justify-center  text-gray-500">
             Your cart is empty.
           </div>
         )}
