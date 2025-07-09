@@ -1,10 +1,10 @@
-import Header from "./Components/Header";
+import Navbar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import { Outlet } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Header />
+      <Navbar/>
       <hr />
       <Outlet />
       <hr />
