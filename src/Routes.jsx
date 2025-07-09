@@ -1,7 +1,7 @@
 import App from './App'
 import ErrorPage from './Pages/ErrorPage.jsx'
 import Shop from './Pages/ShopPage.jsx';
-import About from './Pages/AboutPage.jsx';
+import Home from './Pages/HomePage.jsx';
 import Cart from './Pages/CartPage.jsx';
 import ItemCards from './Components/ItemCards.jsx'
 import CheckOutPage from "./Pages/CheckOutPage";
@@ -12,11 +12,11 @@ const routes = [
         children:[
             {index: true, element: 
             <>
-            <About/>
+            <Home/>
             </>},
             {
-                path:'About',
-                element:<About/>,
+                path:'Home',
+                element:<Home/>,
             },
             {
                 path:'Shop',
