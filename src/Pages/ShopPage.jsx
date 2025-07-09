@@ -2,8 +2,8 @@ import ProductList from "../Components/ProductList.jsx";
 
 function Shop() {
   return (
-    <div className="py-2">
-      <h1 className="text-center text-4xl text-orange-500">
+    <div className="flex flex-col ">
+      <h1 className="bg-orange-500 text-center text-white font-medium text-4xl p-2 rounded-br-2xl w-fit">
         Shop for the latest items!
       </h1>
       <ProductList />
