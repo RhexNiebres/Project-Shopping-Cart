@@ -11,7 +11,11 @@ function About() {
     };
   }, []);
   return (
-    <div className="h-screen w-screen flex">
+    <div className="flex h-screen w-screen flex-col">
+      <div className="mb-6 flex flex-col items-center justify-center bg-orange-500 p-6">
+        <h1 className="text-6xl font-bold text-white p-2">Catrsy</h1>
+        <p className="text-white font-semibold">Reliable | Fast | Effortless | Quality</p>
+      </div>
       <WelcomeCard />
     </div>
   );
