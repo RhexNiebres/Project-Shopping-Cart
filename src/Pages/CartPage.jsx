@@ -59,7 +59,7 @@ const Cart = () => {
           cart.map((item) => (
             <div
               key={item.id}
-              className="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4"
+              className="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4  border-2 rounded-2xl shadow-2xl text-center mx-8"
             >
               <img
                 src={item.image}
