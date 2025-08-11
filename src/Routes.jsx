@@ -1,5 +1,5 @@
 import App from './App'
-import ErrorPage from './Pages/ErrorPage.jsx'
+import PageNotFound from './Pages/PageNotFound.jsx'
 import Shop from './Pages/ShopPage.jsx';
 import Home from './Pages/HomePage.jsx';
 import Cart from './Pages/CartPage.jsx';
@@ -8,7 +8,7 @@ import CheckOutPage from "./Pages/CheckOutPage";
 const routes = [
     {path:'/' ,
         element:<App/>,
-        errorElement:<ErrorPage/>,
+        errorElement:<PageNotFound/>,
         children:[
             {index: true, element: 
             <>
