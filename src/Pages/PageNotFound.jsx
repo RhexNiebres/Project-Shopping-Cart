@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const ErrorPage = () => {
+const PageNotFound = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen">
       <div className="text-center bg-orange-400 p-10 rounded text-white font-bold text-2xl">
@@ -17,4 +17,4 @@ const ErrorPage = () => {
   );
 };
 
-export default ErrorPage;
+export default PageNotFound;
